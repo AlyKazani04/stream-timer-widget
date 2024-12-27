@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  }
+  .clock-container {
+    display: inline-block;
+    text-align: center;
+  }
+  .time-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+    font-family: "Lexend Deca", serif;
+    color: transparent;
+    background-clip: text;
+  }
+  .controls button:hover, .set-time button:hover{
+    color: red;
+  }
+  .controls button{
+    margin: 5px;
+  }
+  .controls button, .set-time button {  
+    padding: 10px 15px;
+    font-size: 1em;
+    color: black;
+    background: darkgray;
+    border-radius: 5px;
+    border:2px solid red;
+  }
+  .settime{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .set-time {
+    margin-top: 20px;
+  }
+  .lexend-deca-dwonloadedfont {
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
